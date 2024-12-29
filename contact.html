@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Your Tour Operator</title>
+    <link rel="stylesheet" href="./style3.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png.png" alt="Travel With Us Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./destinations.html">Destinations</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="contact-info">
+        <div class="info-container">
+            <h2>Get in Touch with Us</h2>
+            <table>
+                <tr>
+                    <td><strong>Phone:</strong></td>
+                    <td>+92 123 456789</td>
+                </tr>
+                <tr>
+                    <td><strong>Email:</strong></td>
+                    <td>info@touroperator.com</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h1>Leave Us Your Information</h1>
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Full Name" required> 
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required> 
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required> 
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea> 
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Travel With Us | All Rights Reserved</p>
+    </footer>
+    <script src="script3.js"></script>
+    
+</body>
+</html>
